@@ -1,0 +1,11 @@
+{
+  "name": "paperform",
+  "version": "1.0.0",
+  "description": "Create forms that take payments and bookings, get documents signed, automate what happens next and analyse the responses.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "paperform": {
+      "httpUrl": "https://api.paperform.app/mcp"
+    }
+  }
+}
