@@ -1,19 +1,27 @@
-# Paperform for Gemini CLI
+# Paperform for Gemini CLI and Cursor
 
-Create forms that do more, from Gemini CLI. Take payments and bookings, get documents signed, automate what happens next and analyse the responses. This extension connects Gemini CLI to your Paperform account and adds skills that show it how to do each job well.
+Create forms that do more, from your AI assistant. Take payments and bookings, get documents signed, automate what happens next and analyse the responses. This extension connects Gemini CLI or Cursor to your Paperform account and adds skills that show it how to do each job well. It works on every Paperform plan, including Free.
 
 ## Install
+
+**Gemini CLI**
 
 ```
 gemini extensions install https://github.com/paperform-co/paperform-gemini-extension
 ```
 
-Then start Gemini CLI and run `/mcp auth paperform`. Sign in with your Paperform account (or create one) and choose what Gemini CLI may do. It works on every Paperform plan, including Free.
+Then start Gemini CLI and run `/mcp auth paperform`. Sign in with your Paperform account (or create one) and choose what Gemini CLI may do.
+
+**Cursor**
+
+Install Paperform from the Cursor marketplace, or add `https://api.paperform.app/mcp` as a remote MCP server in Cursor's settings. Cursor opens Paperform's sign-in page the first time you use it.
+
+**Claude and ChatGPT:** see https://paperform.com/mcp/ for setup.
 
 ## What you can ask for
 
-- **Forms.** Describe what you need and Gemini CLI builds it in your account: an order form that takes payment, a booking form for 30-minute calls, a quote form that calculates the total. Add coupons, conditional logic and your colours and fonts. Connect your Stripe, Square, PayPal or Braintree account in Paperform and Gemini CLI does the rest. You can also turn a PDF or a list of questions into a form. Publish it when you're happy, then ask for a summary of the responses.
-- **Workflows.** Ask Gemini CLI to act on each new submission or other trigger: add a row to Google Sheets, send an email, update your CRM. It builds the workflow, tests each step against your connected apps, and explains what happened when a run fails.
+- **Forms.** Describe what you need and your assistant builds it in your account: an order form that takes payment, a booking form for 30-minute calls, a quote form that calculates the total. Add coupons, conditional logic and your colours and fonts. Connect your Stripe, Square, PayPal or Braintree account in Paperform and your assistant does the rest. You can also turn a PDF or a list of questions into a form. Publish it when you're happy, then ask for a summary of the responses.
+- **Workflows.** Ask your assistant to act on each new submission or other trigger: add a row to Google Sheets, send an email, update your CRM. It builds the workflow, tests each step against your connected apps, and explains what happened when a run fails.
 - **E-signatures.** Pick a template, say who signs and what to fill in, and it sends the document for signature once you confirm. Ask who still needs to sign, or cancel a document that went out by mistake.
 
 Try:
@@ -38,7 +46,7 @@ Try:
 
 The extension contains skills (Markdown instructions), a context file and one remote MCP server, `https://api.paperform.app/mcp`. It runs no code on your computer.
 
-When you connect, you sign in through Paperform's own sign-in page and choose what Gemini CLI may do. It then works only in the account and spaces you approved. Requests go from Gemini CLI to Paperform's server over HTTPS; the extension sends data nowhere else. Paperform's tools are set up to check with you before it publishes, sends or deletes anything.
+When you connect, you sign in through Paperform's own sign-in page and choose what your assistant may do. It then works only in the account and spaces you approved. Requests go from your assistant to Paperform's server over HTTPS; the extension sends data nowhere else. Paperform's tools are set up to check with you before it publishes, sends or deletes anything.
 
 Workflows run on Stepper and e-signatures on Papersign, both part of Paperform. Already use Stepper or Papersign on their own? Sign in with that account, and you get the tools for the products it has.
 

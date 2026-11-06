@@ -1,0 +1,18 @@
+{
+  "name": "paperform",
+  "displayName": "Paperform",
+  "version": "1.0.0",
+  "description": "Create forms that take payments and bookings, get documents signed, automate what happens next and analyse the responses.",
+  "author": {
+    "name": "Paperform",
+    "email": "support@paperform.co"
+  },
+  "homepage": "https://paperform.com/mcp/",
+  "repository": "https://github.com/paperform-co/paperform-gemini-extension",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["paperform", "forms", "payments", "bookings", "workflows", "automation", "e-signatures", "stepper", "papersign", "mcp"],
+  "category": "integrations",
+  "tags": ["paperform", "forms", "mcp", "e-signatures"],
+  "mcpServers": "./mcp.json"
+}
