@@ -38,7 +38,7 @@ Try:
 
 The extension contains skills (Markdown instructions), a context file and one remote MCP server, `https://api.paperform.app/mcp`. It runs no code on your computer.
 
-When you connect, you sign in through Paperform's own sign-in page and choose what Gemini CLI may do. It then works only in the account and spaces you approved. Requests go from Gemini CLI to Paperform's server over HTTPS; the extension sends data nowhere else. It checks with you before it publishes, sends or deletes anything.
+When you connect, you sign in through Paperform's own sign-in page and choose what Gemini CLI may do. It then works only in the account and spaces you approved. Requests go from Gemini CLI to Paperform's server over HTTPS; the extension sends data nowhere else. Paperform's tools are set up to check with you before it publishes, sends or deletes anything.
 
 Workflows run on Stepper and e-signatures on Papersign, both part of Paperform. Already use Stepper or Papersign on their own? Sign in with that account, and you get the tools for the products it has.
 
