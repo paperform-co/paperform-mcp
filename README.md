@@ -1,4 +1,4 @@
-# Paperform for Gemini CLI and Cursor
+# Paperform MCP: plugins and extensions for AI assistants
 
 Create forms that do more, from your AI assistant. Take payments and bookings, get documents signed, automate what happens next and analyse the responses. This extension connects Gemini CLI or Cursor to your Paperform account and adds skills that show it how to do each job well. It works on every Paperform plan, including Free.
 
@@ -7,7 +7,7 @@ Create forms that do more, from your AI assistant. Take payments and bookings, g
 **Gemini CLI**
 
 ```
-gemini extensions install https://github.com/paperform-co/paperform-gemini-extension
+gemini extensions install https://github.com/paperform-co/paperform-mcp
 ```
 
 Then start Gemini CLI and run `/mcp auth paperform`. Sign in with your Paperform account (or create one) and choose what Gemini CLI may do.
